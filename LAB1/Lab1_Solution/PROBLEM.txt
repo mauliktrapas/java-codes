@@ -1,0 +1,20 @@
+You will create a small IRC like chat application in this lab.
+
+Your Chat application has a Chatroom with active few users. The users can broadcast messages to the Chatroom. If any user wants to know the chat history, the Chatroom provides a print of the chat logs.
+
+Some code will be pre-written to help you with the design of the application. You are supposed to think in Object Orient Programming paradigm to fill out the remaining code.
+
+Methods to implement - 
+1.) printLog() // prints the chat logs to the console.
+2.) receiveUserChat(String message) // Store the message sent by a user into a String array
+3.) writeMessage() //The message generation part will be implemented, you have to figure out a way to broadcast the message to the ChatRoom.
+
+Notice the following -
+1.) You might have observed a consistent style in naming the variables and class names - variables begin with a lowercase and a complex variable name is camelCased. For a class, the names start in capital letters. They are conventions adopted by the java community.
+2.) Also note comments beginning in 2 styles - /** ... */, //. The former is used for javadoc creation. This is how the documentation for the Java API is generated.
+3.) You will have seen public/private at various places. For now, assume a thumb rule to use public for all the classes and class methods,  private otherwise.
+Reason the following -
+1.) What is the purpose of 'static' variable autoId in the User.java class?
+2.) Understand the String data structure. How is this different from char Array in C?
+
+Teaser - You are to build a new feature that allows users to communicate among themselves. How would you do that?
